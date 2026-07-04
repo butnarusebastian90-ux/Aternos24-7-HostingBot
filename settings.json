@@ -9,7 +9,7 @@
     "ip":"wemmmblue-76Ld.aternos.me",
     "port":58731,
     "version":
-    "try-creative": true
+    "try-creative":false
   },
   "position": {
     "enabled": true,
