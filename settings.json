@@ -2,14 +2,14 @@
   "name": "AFK Bot",
   "bot-account": {
     "username": "aternos.bot",
-    "password": "",
+    "password": chalol78"",
     "type": "online"
   },
   "server": {
     "ip":"wemmmblue-76Ld.aternos.me",
     "port":58731,
     "version":1.21.11"",
-    "try-creative": false
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -27,33 +27,31 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        
       ]
     },
-    "chat-log": true,
-    "auto-reconnect": true,
+    "chat-log":false ,
+    "auto-reconnect": ,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
@@ -65,8 +63,8 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
